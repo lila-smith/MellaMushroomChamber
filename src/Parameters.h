@@ -15,11 +15,11 @@
 #define PARAMETER_FAN_STALL_SPEED                   (20)
 
 #define PARAMETER_HUMIDITY_MIN_SETPOINT             (50)
-#define PARAMETER_HUMIDITY_MAX_SETPOINT             (82)
+#define PARAMETER_HUMIDITY_MAX_SETPOINT             (90)
 #define PARAMETER_HUMIDITY_PID_KP                   (float(5))
 #define PARAMETER_HUMIDITY_PID_KI                   (float(0.2))
 #define PARAMETER_HUMIDITY_PID_KD                   (float(0.001))
-#define PARAMETER_HUMIDITY_ERROR_OFFSET             (12)
+#define PARAMETER_HUMIDITY_ERROR_OFFSET             (18)
 #define PARAMETER_HUMIDITY_MINIMUM_OUTPUT           (2 * PARAMETER_FAN_STALL_SPEED)
 
 #define PARAMETER_AIR_EXCHANGE_MIN_SETPOINT         (0)

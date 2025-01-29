@@ -115,6 +115,10 @@ static void CalculateFanOutput(void)
       instance._private.outputValue = PARAMETER_MIN_ANALOG_OUTPUT;
       PreventNegativeIntegratorWindup();
    }
+   else if (instance._private.setPoint == PARAMETER_HUMIDITY_MAX_SETPOINT) 
+   {
+      instance._private.outputValue = PARAMETER_MAX_ANALOG_OUTPUT;
+   }
    else
    {
       instance._private.outputValue = instance._private.pidRequest;
